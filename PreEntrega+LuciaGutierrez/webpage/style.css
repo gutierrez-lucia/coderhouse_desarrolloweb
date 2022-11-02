@@ -881,6 +881,10 @@ legend {
     padding-top: 25px;
 }
 
+.section_estilos {
+    padding: 50px;
+    display: flex;
+}
 
 .estiloamericano {
     margin: 0px 20px;
