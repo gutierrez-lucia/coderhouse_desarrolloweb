@@ -60,7 +60,42 @@ a {
     width: 80vw;
 }
 
-h1 {
+.div_button_navbar {
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    width: 80vw;
+}
+
+.smedia_image_footer {
+    width: 20px;
+    height: auto;
+}
+
+.index_footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.footer_li {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.footer_text {
+    color: white;
+}
+
+/* MOBILE - INDEX */
+
+.h1_index {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -106,19 +141,10 @@ h1 {
     text-align: center;
     font-weight: bolder;
     font-size: 16px;
-    margin-top: 75pxpx;
+    margin-top: 75px;
     border-radius: 8px;
     justify-content: center;
     justify-self: center;
-    width: 80vw;
-}
-
-.div_button_navbar {
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    justify-items: center;
     width: 80vw;
 }
 
@@ -137,33 +163,321 @@ h1 {
     margin-top: 75px;
 }
 
-.smedia_image_footer {
-    width: 25px;
+/* MOBILE - SOBRE NOSOTRAS */
+
+.sobrenosotros_seccionprincipal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.div_h1_sobrenosotras {
+    width: 100%;
+    height: auto;
+    justify-self: center;
+}
+
+.h1_sobrenosotras {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.sobrenosotros_div_texto1 {
+    order: -1;
+    width: 100%;
     height: auto;
 }
 
-.index_footer {
+.sobrenosotros_div_h2 {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+.sobrenosotros_div_p {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 40px;
+}
+
+
+.sobrenosotros_fotoprincipal {
+    width: 100%;
+    height: auto;
+    order: +1;
+    margin:auto;
+    padding: 0px 65px 0px 65px;
+}
+
+.sobrenosotros_div_texto2 {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 40px;
+    padding-top: 40px; 
+}
+
+/* MOBILE - CONTACTO */
+
+.div_h1_contacto {
+    width: 100%;
+    height: 100px;
+    justify-self: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.h1_contacto {
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.form_contacto {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    text-align: center;
     margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #ff5800;
+    border-radius: 25px;
+    
 }
 
-.footer_li {
-    list-style: none;
+legend {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form_div_sexo {
+    padding-bottom: 50px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.form_div_nombre {
+    padding-bottom: 50px;
+    justify-content: space-around;
+    justify-items: space-around;
+}
+
+.form_div_motivo {
+    padding-bottom: 50px;
+    display: inline;
+}
+
+.send_button {
+    margin-top: 70px;
+    background-color: white;
+    border: none;
+    color: #ff5800;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    padding-top: 20px;
+    font-size: 16px;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 8px;
 }
 
-.footer_text {
+/* MOBILE - CURSOS */
+    
+.div_h1_cursos {
+    width: 100%;
+    height: 100px;
+    justify-self: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.h1_cursos {
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_title1 {
+    width: 40%;
+    height: auto;
+    padding: 30px 0px;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card_title2 {
+    width: 40%;
+    height: auto;
+    padding: 30px 0px;
+    margin-bottom: 20px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card_title3 {
+    width: 40%;
+    height: auto;
+    padding: 30px 0px;
+    margin-bottom: 20px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card_img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.card_text1 {
+    width: 50%;
+    height: auto;
+    padding: 10px 10px;
+    margin-bottom: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card_text2 {
+    width: 50%;
+    height: auto;
+    padding: 10px 10px;
+    margin-bottom: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card_text3 {
+    width: 50%;
+    height: auto;
+    padding: 10px 10px;
+    margin-bottom: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card_btn {
+    background-color: #ff5800;
     color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    justify-content: center;
+    place-items: center;
 }
+
+.card_button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.card_button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.card_button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/* MOBILE - ESTILOS */
+
+.div_h1_estilos {
+    width: 100%;
+    height: 100px;
+    justify-self: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.h1_estilos {
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.section_estilos {
+    padding: 50px;
+}
+
+.estiloamericano {
+    margin: 150x 20px 50px 20px;
+    box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-webkit-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-moz-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+}
+
+.estilofrances {
+    margin: 150px 20px 50px 20px;
+    box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-webkit-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-moz-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+}
+
+.chippendale {
+    margin: 0px 20px;
+    box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-webkit-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-moz-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+}
+
+.formica {
+    margin: 150px 20px 50px 20px;
+    box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-webkit-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-moz-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+}
+
+.estilos_h3 {
+    text-align: center;
+}
+
+.estilos_img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.estilos_div_img {
+    margin: auto;
+    width:80%;
+    height: auto;
+}
+
+.estilos_div_p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+
 
 }
 
-/* DEKSTOP */
+/* DESKTOP */
 
 @media screen and (min-width: 768px) {
 
@@ -226,7 +540,37 @@ a:hover {
     color:#00b0aa
 }
 
-h1 {
+.justify_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smedia_image_footer {
+    width: 20px;
+    height: auto;
+}
+
+.index_footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.footer_li {
+    list-style: none;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.footer_text {
+    color: white;
+}
+
+/* DESKTOP - INDEX */
+
+.h1_index {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -272,13 +616,6 @@ h1 {
     justify-content: center;
 }
 
-.justify_content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
 .index_tutoriales {
     display: flex;
     margin: 100px 50px 50px 50px;
@@ -291,120 +628,309 @@ h1 {
     height: auto;
 }
 
-.index_footer {
+/* DESKTOP - SOBRE NOSOTRAS */
+
+.div_h1_sobrenosotras {
+    width: 100%;
+    height: 100px;
+    justify-self: center;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.h1_sobrenosotras {
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.sobrenosotros_seccionprincipal {
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    align-items: center;
+    margin: 0px 50px 50px 50px;
 }
 
-.footer_li {
-    list-style: none;
-    text-decoration: none;
-    padding-top: 20px;
+.sobrenosotros_fotoprincipal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    justify-self: center;
 }
 
-.footer_text {
-    color: white;
+.sobrenosotros_div_texto1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 150px;
 }
 
-.resize_image {
-    width: 20px;
-    height: auto;
-}
-
-}
-
-/* .nav_li {
-    display: inline-block;
-    margin-left: 100px;
-    margin-right: 80px;
-}
-
-footer {
-    margin-top: 50px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    background-color: #333333;
-    color: white;
-    padding-left: 50px;
-}
-
-.footer_li {
-    list-style: none;
-}
-
-.index_footer {
-    margin-top: 500px;
-}
-
-.h1_titulo {
+.sobrenosotros_div_h2 {
+    justify-self: center;
+    font-size: 40px;
+    font-weight: bolder;
     text-align: center;
-    padding-top: 50px;
-    color: #ff5800;
-    font-size: 75px;
+    padding-bottom: 150px;
+}
+
+.sobrenosotros_div_p {
+    justify-self: center;
+    font-size: 19px;
+    text-align: center;
+}
+
+.sobrenosotros_div_texto2 {
+    width: 100%;
+    height: auto;
+    padding: 75px 75px 75px 75px;
+    font-size: 23px;
+    text-align: center;
+}
+
+/* DESKTOP - CONTACTO */
+
+.div_h1_contacto {
+    width: 100%;
+    height: 100px;
+    justify-self: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.h1_contacto {
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
 }
 
 .form_contacto {
-    height: 500px;
-    width: 300px;
-    background-color: #ff5800;
-    margin-top: 100px;
-    margin-left: 450px;
-    padding: 50px 75px 0px 75px;
-    border: solid black;
-    display: inline-block;
-    left: auto;
-    right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #ff5800;
+    border-radius: 25px;
+    
 }
 
-#form_contacto legend {
-    font-size: 25px;
+legend {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.index_main_section_div_p {
-    padding: 15px 100px 0px 100px;
-    font-weight: bold;
+.form_div_sexo {
+    padding-bottom: 50px;
+    width: 80%;
+    height: auto;
+    margin: auto;
 }
 
-.tutorial {
+.form_div_nombre {
+    padding-bottom: 50px;
+    justify-content: space-around;
+    justify-items: space-around;
+}
+
+.form_div_motivo {
+    padding-bottom: 50px;
     display: inline-block;
     margin: 100px 50px 100px 50px;
 }
 
-.tutoriales_main_section_h1 {
-    margin-top: 50px;
+.send_button {
+    margin-top: 70px;
+    background-color: white;
+    border: none;
+    color: #ff5800;
+    padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 8px;
 }
 
-.display_inline_block {
-    display: inline-block;
-}
+/* DESKTOP - CURSOS */
 
-.productos div {
-    border: solid black;
-    margin: 50px 525px 50px 525px;
-    background-color: orangered;
-    text-align: center;
-
-}
-
-.sobrenosotros_main_section {
-    text-align: center;
-    margin: 50px 100px 0px 100px;
-    display: inline-block;
-}
-
-.sobrenosotros_main_img {
-    width: 400px;
+.div_h1_cursos {
+    width: 100%;
     height: auto;
-    padding: 30px 100px 0px 100px;
-    display: inline-block;
+    justify-self: center;
 }
 
-.index_image {
-    width: 400px;
+.h1_cursos {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr repeat(2, 1fr);
+    grid-column-gap: 55px;
+    grid-row-gap: 20px;
+    width: 80%;
     height: auto;
-    padding: 0px 100px 40px 200px;
-    float: left;
-} */
+    margin: 50px auto;
+    }
+    
+    .card_title1 { grid-area: 1 / 1 / 2 / 2; }
+    .card_image1 { grid-area: 2 / 1 / 3 / 2; }
+    .card_text1 { grid-area: 3 / 1 / 4 / 2; }
+    .card_button1 { grid-area: 4 / 1 / 5 / 2; }
+    .card_title2 { grid-area: 1 / 2 / 2 / 3; }
+    .card_image2 { grid-area: 2 / 2 / 3 / 3; }
+    .card_text2 { grid-area: 3 / 2 / 4 / 3; }
+    .card_button2 { grid-area: 4 / 2 / 5 / 3; }
+    .card_title3 { grid-area: 1 / 3 / 2 / 4; }
+    .card_image3 { grid-area: 2 / 3 / 3 / 4; }
+    .card_text3 { grid-area: 3 / 3 / 4 / 4; }
+    .card_button3 { grid-area: 4 / 3 / 5 / 4; }
+
+.card_img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.card_title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card_title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card_title3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card_p {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 125x;
+    place-items: center;
+}
+
+.card_btn {
+    background-color: #ff5800;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    justify-content: center;
+    place-items: center;
+}
+
+.card_button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DESKTOP - ESTILOS */
+    
+.div_h1_estilos {
+    width: 100%;
+    height: 100px;
+    justify-self: center;
+    align-items: center;
+    padding-bottom: 130px;
+}
+
+.h1_estilos {
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+
+.estiloamericano {
+    margin: 0px 20px;
+    box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-webkit-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-moz-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+}
+
+.estilofrances {
+    margin: 0px 20px;
+    box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-webkit-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-moz-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+}
+
+.chippendale {
+    margin: 0px 20px;
+    box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-webkit-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-moz-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+}
+
+.formica {
+    margin: 0px 20px;
+    box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-webkit-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+-moz-box-shadow: -1px -1px 60px 11px rgba(255,88,0,0.86);
+}
+
+.estilos_h3 {
+    text-align: center;
+}
+
+.estilos_img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.estilos_div_img {
+    margin: auto;
+    width:80%;
+    height: auto;
+}
+
+.estilos_div_p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+
+}
