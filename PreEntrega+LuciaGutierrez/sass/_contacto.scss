@@ -18,23 +18,6 @@ $almacenOrange: #ff5800;
         }
     }
 
-    .form_contacto {
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-        margin: auto;
-        height: auto;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-        margin-top: 75px;
-        margin-bottom: 75px;
-        background-color: white;
-        border: solid $almacenOrange;
-        border-width: 8px;
-        border-radius: 25px;
-        
-    }
     
     legend {
         padding-top: 15px;
@@ -74,31 +57,12 @@ $almacenOrange: #ff5800;
         cursor: pointer;
     }
     
-    .form_div_sexo {
-        padding-bottom: 50px;
-        display: inline-block;
-        margin: 100px 50px 100px 50px;
-    }
-    
-    .form_div_nombre {
-        padding-bottom: 50px;
-        justify-content: space-around;
-        justify-items: space-around;
-    }
-    
-    .form_div_motivo {
-        padding-bottom: 50px;
-        display: inline-block;
-        margin: 100px 50px 100px 50px;
-    }
-    
     .send_button {
         margin-top: 70px;
         padding: 15px 32px;
         font-size: 16px;
         height: 50px;
     }
-    
 
 }
 
@@ -117,23 +81,6 @@ $almacenOrange: #ff5800;
         align-items: center;
         padding-top: 25px;
     }
-}
-
-.form_contacto {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin: auto;
-    height: auto;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    background-color: white;
-    border: solid $almacenOrange;
-    border-width: 8px;
-    border-radius: 25px;
 }
 
 legend {
@@ -171,24 +118,6 @@ input[type=submit] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-.form_div_sexo {
-    padding-bottom: 50px;
-    display: inline-block;
-    margin: 100px 50px 100px 50px;
-}
-
-.form_div_nombre {
-    padding-bottom: 50px;
-    justify-content: space-around;
-    justify-items: space-around;
-}
-
-.form_div_motivo {
-    padding-bottom: 50px;
-    display: inline-block;
-    margin: 100px 50px 100px 50px;
 }
 
 .send_button {

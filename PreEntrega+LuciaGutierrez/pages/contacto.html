@@ -36,47 +36,108 @@
     <div class="div_h1_contacto">
         <h1 class="h1_contacto">CONTACTO</h1>
     </div>
-    <div class="form_contacto">
-        <form id="form_contacto">
-            <div>
-                <legend>INFORMACION PERSONAL</legend>
-            </div>
-            <div class="form_div_sexo">
-                <span>Sexo</span>
-                <select name="sexo" id="sexo">
-                    <option value="1">Hombre</option>
-                    <option value="2">Mujer</option>
-                    <option value="3">Prefiero no decir</option>
-                </select>
-            </div>
-            <div class="form_div_nombre">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
-            </div>
-            <div class="form_div_nombre">
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
-            </div>
-            <div class="form_div_nombre">
-                <label for="email">E-Mail</label>
-                <input type="text" name="email" id="email" placeholder="E-Mail" required>
-            </div>
-            <div class="form_div_motivo">
-                <span>Motivo</span>
-                <select name="motivo" id="motivo">
-                    <option value="1">Información</option>
-                    <option value="2">Cotización</option>
-                    <option value="3">Asesoramiento</option>
-                </select>
-                <div>
-                    <div class="send_button">
-                        <input type="submit" value="Enviar">
+    <section class="vh-100 gradient-custom section_contacto">
+        <div class="container py-5 h-100">
+          <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+              <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                <div class="card-body p-4 p-md-5 contacto_div">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">CONTACTANOS</h3>
+                  <form>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+      
+                        <div class="form-outline">
+                          <input type="text" id="firstName" class="form-control form-control-lg" />
+                          <label class="form-label" for="firstName">Nombre</label>
+                        </div>
+      
+                      </div>
+                      <div class="col-md-6 mb-4">
+      
+                        <div class="form-outline">
+                          <input type="text" id="lastName" class="form-control form-control-lg" />
+                          <label class="form-label" for="lastName">Apellido</label>
+                        </div>
+      
+                      </div>
                     </div>
+      
+                    <div class="row">
+                      <div class="col-md-12 mb-4 d-flex align-items-center">
+      
+                      </div>
+                      <div class="col-md-6 mb-4">
+      
+                        <h6 class="mb-2 pb-1">Género</h6>
+      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                            value="option1" checked />
+                          <label class="form-check-label" for="femaleGender">F</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                            value="option2" />
+                          <label class="form-check-label" for="maleGender">M</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                            value="option3" />
+                          <label class="form-check-label" for="otherGender">Otro</label>
+                        </div>
+      
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+      
+                        <div class="form-outline">
+                          <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                          <label class="form-label" for="emailAddress">Email</label>
+                        </div>
+      
+                      </div>
+                      <div class="col-md-6 mb-4 pb-2">
+      
+                        <div class="form-outline">
+                          <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                          <label class="form-label" for="phoneNumber">Teléfono</label>
+                        </div>
+      
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-12">
+      
+                        <select class="select form-control-lg">
+                          <option value="1" disabled>Motivo</option>
+                          <option value="2">Cotización</option>
+                          <option value="3">Información</option>
+                          <option value="4">Asesoramiento</option>
+                        </select>
+                        <label class="form-label select-label">Motivo</label>
+      
+                      </div>
+                    </div>
+      
+                    <div class="mt-4 pt-2">
+                      <input class="btn btn-light btn-lg" type="submit" value="Enviar" />
+                    </div>
+      
+                  </form>
                 </div>
+              </div>
             </div>
-        </form>
-    </div>
-<footer class="index_footer">
+          </div>
+        </div>
+      </section>
+<footer class="index_footer contact_footer">
     <ul>
         <li class="footer_li"><a class="footer_text" href="../index.html">Inicio</a></li>
         <li class="footer_li"><a class="footer_text" href="./sobreNosotros.html">Sobre Nosotros</a></li>

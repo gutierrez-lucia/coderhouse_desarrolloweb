@@ -85,6 +85,10 @@ html {
     color: white;
     text-decoration: none;
   }
+
+  .contact_footer {
+    margin-top: 400px;
+  }
 }
 /* DESKTOP - NAV BAR */
 @media screen and (min-width: 1102px) {
@@ -149,6 +153,10 @@ html {
   footer .footer_text {
     color: white;
     text-decoration: none;
+  }
+
+  .contact_footer {
+    margin-top: 200px;
   }
 }
 /* MOBILE - INDEX */
